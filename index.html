@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Yvan Mansfield">
+    <meta name="description" content="Portfolio professionnel de Yvan Mansfield, ingénieur des travaux informatiques, option génie logiciel.">
+
+    <title>ING Mansfield | Portfolio professionnel</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="index.html" class="logo">ING<span>.</span></a>
+
+        <nav class="navigation">
+            <a href="index.html" data-i18n="nav_home">Accueil</a>
+            <a href="pages/about.html" data-i18n="nav_about">À propos</a>
+            <a href="pages/skills.html" data-i18n="nav_skills">Compétences</a>
+            <a href="pages/projects.html" data-i18n="nav_projects">Projets</a>
+            <a href="pages/services.html" data-i18n="nav_services">Services</a>
+            <a href="pages/certifications.html" class="active">Certifications</a>
+            <a href="pages/patisseries.html" class="active">Mansfield Food</a>
+            <a href="pages/contact.html" data-i18n="nav_contact">Contact</a>
+
+        </nav>
+
+        <div class="header-actions">
+            <select id="language-selector" aria-label="Select language">
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+                <option value="es">Espagnol</option>
+            </select>
+
+            <button id="theme-toggle" aria-label="Changer le thème">
+                ☀
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="hero">
+
+        <section class="hero-content">
+
+            <p class="welcome" data-i18n="welcome">
+                BIENVENUE SUR MON PORTFOLIO
+            </p>
+
+            <h1>
+                <span data-i18n="greeting">Bonjour, je suis</span>
+                <span class="highlight">Yvan Mansfield.</span>
+            </h1>
+
+            <h2 data-i18n="profession">
+                Ingénieur des Traveaux Informatiques
+            </h2>
+
+            <p class="speciality" data-i18n="speciality">
+                Option Génie Logiciel
+            </p>
+
+            <p class="introduction" data-i18n="introduction">
+                Je conçois des solutions numériques innovantes
+                et transforme les idées en projets technologiques
+                concrets.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="pages/about.html" class="btn btn-primary"
+                   data-i18n="discover">
+                    Découvrir mon profil
+                </a>
+
+                <a href="pages/projects.html" class="btn btn-outline"
+                   data-i18n="portfolio">
+                    Voir mes réalisations
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+
+                <a href="https://www.facebook.com/" target="_blank"
+                   rel="noopener noreferrer">Facebook</a>
+            </div>
+
+        </section>
+
+        <!-- PROFILE PHOTO -->
+        <section class="hero-image">
+            <div class="image-border">
+                <img src="assets/images/profile.jpg"
+                     alt="Portrait professionnel de Yvan Mansfield">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- QUICK NAVIGATION -->
+    <section class="quick-navigation">
+
+        <a href="pages/skills.html" class="navigation-card">
+            <span>01</span>
+            <h3 data-i18n="skills">Mes compétences</h3>
+            <p data-i18n="skills_desc">Mon expertise technique</p>
+        </a>
+
+        <a href="pages/projects.html" class="navigation-card">
+            <span>02</span>
+            <h3 data-i18n="projects">Mes projets</h3>
+            <p data-i18n="projects_desc">Mes réalisations</p>
+        </a>
+
+        <a href="pages/services.html" class="navigation-card">
+            <span>03</span>
+            <h3 data-i18n="services">Mes services</h3>
+            <p data-i18n="services_desc">Ce que je propose</p>
+        </a>
+
+        <a href="pages/certifications.html" class="navigation-card">
+            <span>04</span>
+            <h3 data-i18n="certifications">Certifications</h3>
+            <p data-i18n="certifications_desc">Mes qualifications</p>
+        </a>
+
+        <a href="pages/contact.html" class="navigation-card">
+            <span>05</span>
+            <h3 data-i18n="contact">Me contacter</h3>
+            <p data-i18n="contact_desc">Entrons en contact</p>
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            © <span id="current-year"></span>
+            Ing Mansfield.
+            <span data-i18n="rights">Tous droits réservés.</span>
+        </p>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

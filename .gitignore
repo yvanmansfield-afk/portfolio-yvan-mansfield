@@ -1,0 +1,25 @@
+
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Configuration locale de PyCharm
+.idea/
+
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
